@@ -2,9 +2,9 @@
 ---
 
 // fails
-//@import {{ site.remote_theme }};
+@import {{ site.remote_theme }};
 
-@import 'jekyll-theme-tactile';
+//@import 'jekyll-theme-tactile';
 
   
 body {
