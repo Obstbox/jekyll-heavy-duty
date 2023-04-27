@@ -15,7 +15,7 @@ url: https://obstbox.github.io
 github_username: Obstbox
 
 # Build settings
-theme: minima
+# theme: minima
 remote_theme: jekyll-theme-tactile
 plugins:
   - jekyll-feed
