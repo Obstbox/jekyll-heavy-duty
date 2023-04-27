@@ -4,9 +4,10 @@
 // fails
 //@import {{ site.remote_theme }}
 
-@import 'jekyll-theme-tactile'
-
-body {
-  background: cyan;
-  color: #ddd;
-}
+//@import 'jekyll-theme-tactile'
+@import 'minima'
+  
+//body {
+//  background: cyan;
+//  color: #ddd;
+//}
