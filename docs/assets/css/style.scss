@@ -1,7 +1,10 @@
 ---
 ---
 
-@import {{ site.remote_theme }}
+// fails
+//@import {{ site.remote_theme }}
+
+@import 'jekyll-theme-tactile'
 
 body {
   background: cyan;
