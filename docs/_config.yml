@@ -1,0 +1,21 @@
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Obstbox
+email: obst.box@gmail.com
+description: персональный веб-сайт
+
+# must be quotas here?
+domain: obstbox.github.io
+baseurl: /jekyll-heavy-duty
+url: https://obstbox.github.io
+github_username: Obstbox
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
