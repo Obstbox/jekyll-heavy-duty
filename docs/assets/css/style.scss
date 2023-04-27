@@ -2,3 +2,9 @@
 ---
 
 @import "jekyll-theme-tactile";
+
+nav.head-nav {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
