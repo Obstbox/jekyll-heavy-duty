@@ -13,9 +13,9 @@ p {
     text-align: justify;
 }
 
-p > a {
-    margin-right: 20px;
-}
+// p > a {
+//     margin-right: 20px;
+// }
 
 em {
     color: #8a6d6d;
@@ -36,6 +36,9 @@ div.bio figure {
     margin-right: 2ex;
 }
 
+div.bio > div {
+    margin-top: 1em;
+}
 // div.bio img {
 //     width: 220px;
 //     margin-right: 20px;
