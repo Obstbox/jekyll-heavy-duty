@@ -28,5 +28,5 @@ __minima__. также стащил стили у [tactile](https://github.com/p
 
 `{{ site.baseurl }}{{ item.link }}` и `{{ item.link | relative_url }}` дают одинаковый результат
 `{: style="float: left; margin-right: 1em;"}` стили в __kramdown__
-
+`{: .no-indent}` после абзаца - добавляет к нему класс _no-indent_ в **kramdown**
 

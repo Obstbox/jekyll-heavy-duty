@@ -11,6 +11,18 @@ nav.head-nav {
 
 p {
     text-align: justify;
+    text-indent: 1.2em;
+}
+
+p.no-indent {
+    text-indent: 0;
+}
+
+p.contacts a {
+    margin-right: 2em;
+}
+p.contacts a:last-child {
+    margin-right: 0;
 }
 
 // p > a {
