@@ -9,4 +9,4 @@ layout: default
 
 > Кто придумал... эту чушь?..  
 
-
+{{ site.baseurl }}

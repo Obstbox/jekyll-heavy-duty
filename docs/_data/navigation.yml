@@ -2,5 +2,7 @@
   link: /
 - name: Блог
   link: /blog.html
+- name: js demo
+  link: /js-marathon.html
 - name: Обо мне
   link: /about.html

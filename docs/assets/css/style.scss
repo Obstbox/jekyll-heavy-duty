@@ -9,6 +9,34 @@ nav.head-nav {
     justify-content: space-between;
 }
 
-p em {
-    color: #886d6d;
+p {
+    text-align: justify;
 }
+
+p > a {
+    margin-right: 20px;
+}
+
+em {
+    color: #8a6d6d;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+div.bio {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+div.bio figure {
+    min-width: 30%;
+    margin-right: 20px;
+    margin-right: 2ex;
+}
+
+// div.bio img {
+//     width: 220px;
+//     margin-right: 20px;
+// }

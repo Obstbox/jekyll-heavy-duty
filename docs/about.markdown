@@ -1,18 +1,21 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout: about
+title: Обо мне
+# чтобы не разбираться со сложной верской в md, фото и первый параграф текста вставил прямо в лейаут 'about'.
+# остальные подробности моей будут описаны в этом файле.
+
+# permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## Чуть подробнее
+Выучился на инженера-электронщика, ведь с раннего детства меня интересовало, как работают все эти странные штуковины: 
+магнитофоны и проигрыватели виниловых пластинок, и меня очаровывали всякие мигающие лампочки, будь то новогодняя
+гирлянда или приборка автомобиля. Работа, однако, была связана с компьютерами и офисной техникой. Но хотя бы и там
+пригодились навыки владения паяльником.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Проработав на старом месте много лет и увидев, что всё там покатилось куда-то не туда, уволился и теперь нахожусь в 
+_"творческом отпуске"_, пробую влиться в веб-разработку и программирование вообще.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+## Мои контакты
 
-
-[jekyll-organization]: https://github.com/jekyll
+[telegram]() [vk]() [gmail]() [github]()
