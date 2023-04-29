@@ -1,0 +1,56 @@
+---
+---
+
+@import "jekyll-theme-tactile";
+
+$link-shadow-color: #ce8e8e;
+
+nav.head-nav {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    text-align: justify;
+    text-indent: 1.2em;
+}
+
+p.no-indent {
+    text-indent: 0;
+}
+
+p.contacts a {
+    margin-right: 2em;
+}
+p.contacts a:last-child {
+    margin-right: 0;
+}
+
+em {
+    color: #8a6d6d;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+div.bio {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+div.bio figure {
+    min-width: 30%;
+    margin-right: 20px;
+    margin-right: 2ex;
+}
+
+div.bio > div {
+    margin-top: 1em;
+}
+
+a:hover {
+    text-shadow: 3px 3px 5px #ceaeae;
+}
+
