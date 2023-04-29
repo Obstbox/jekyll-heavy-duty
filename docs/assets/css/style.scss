@@ -3,8 +3,7 @@
 
 @import "jekyll-theme-tactile";
 
-$link-color: rgba(240, 240, 240, 0.4);
-$link-hover-color: rgba(255, 229, 229, 0.4);
+$link-shadow-color: #ce8e8e;
 
 nav.head-nav {
     padding: 10px 20px;
@@ -51,15 +50,7 @@ div.bio > div {
     margin-top: 1em;
 }
 
-a {
-    border-radius: 10px;
-    background: $link-color;
-    border: 4px solid $link-color;
-}
-
 a:hover {
-    border-radius: 10px;
-    background: $link-hover-color;
-    border: 4px solid $link-hover-color;
+    text-shadow: 3px 3px 5px #ceaeae;
 }
 
