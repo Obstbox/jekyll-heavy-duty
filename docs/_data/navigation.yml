@@ -2,18 +2,25 @@
   link: /
 - name: Блог
   link: /blog.html
+  class: gag
 - name: js demo
   link: /js-marathon.html
+  class: gag
 - name: ЛФК
   link: /therapy.html
+  class: gag
 - name: Рыжий кот
   link: /fat-cat.html
+  class: gag
 - name: Разные фотки
   link: /some-photo.html
+  class: gag
 - name: Заметки
   link: /scrappy-notes.html
+  class: gag
 - name: Резюме
   link: /resume.html
+  class: gag
 - name: Обо мне
   link: /about.html
 - name: dummy
