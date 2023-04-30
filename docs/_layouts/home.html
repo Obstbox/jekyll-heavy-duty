@@ -5,4 +5,45 @@ layout: default
 <div class="container">
 
 {{ content }}
+
+
+<p>-------------------------------------------------</p>
+
+
+{%- if site.posts.size > 0 -%}
+  <h2>Свежие записи в блоге</h2>
+  {% comment %} <p>Adipisicing delectus sint Consectetur necessitatibus quo aperiam atque sunt. Ipsam odit facilis minus possimus {% endcomment %} 
+  {% comment %} vitae? Iure consequuntur amet vitae quisquam eveniet? Delectus voluptatum aut neque expedita amet, eum? Minima vel {% endcomment %} 
+  {% comment %} fid non nostrum amet Natus ea beatae eligendi sapiente animi autem Provident adipisci similique enim placeat sit. {% endcomment %} 
+  {% comment %} Exercitationem velit assumenda excepturi ex?</p> {% endcomment %}
+  <ul class="post-list">
+    {%- assign date_format = "%d.%m.%Y" -%}
+    {%- for post in site.posts -%}
+      <li>
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {% comment %} {{ post.title | escape }} {% endcomment %}
+            {{ post.title }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.except }}
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
+
+{%- else -%}
+  <h3>Ой!</h3>
+  <p>Записей в блоге пока нет.</p>
+  <p>Но будут.</p>
+{%- endif -%}
+
+
+
+<p>-------------------------------------------------</p>
+
+
+
 </div>

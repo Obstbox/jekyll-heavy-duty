@@ -20,3 +20,4 @@ remote_theme: jekyll-theme-tactile
 plugins:
   - jekyll-feed
 
+show_excerpts: true
