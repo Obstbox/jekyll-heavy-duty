@@ -9,6 +9,16 @@ nav.head-nav {
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav.head-nav a {
+    min-width: 105px;
+}
+
+// hack
+nav.head-nav a:last-child {
+    visibility: hidden;
 }
 
 p {
@@ -54,3 +64,15 @@ a:hover {
     text-shadow: 3px 3px 5px #ceaeae;
 }
 
+// redefine tactile's
+blockquote {
+  font-size: 1.4em;
+}
+blockquote p {
+  text-indent: 0;
+}
+
+blockquote a {
+    color: #8e8e8e;
+    text-decoration: underline;
+}

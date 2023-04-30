@@ -4,5 +4,17 @@
   link: /blog.html
 - name: js demo
   link: /js-marathon.html
+- name: ЛФК
+  link: /therapy.html
+- name: Рыжий кот
+  link: /fat-cat.html
+- name: Разные фотки
+  link: /some-photo.html
+- name: Заметки
+  link: /scrappy-notes.html
+- name: Резюме
+  link: /resume.html
 - name: Обо мне
   link: /about.html
+- name: dummy
+  link: 
