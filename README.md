@@ -31,24 +31,27 @@ js demo
 
 
 ### todo
-- ~~вычистить `seo\_tag`,  etc из default.html~~
 - навести порядок в `title` и `description` на страницах
 - `permalink` в _about.md_, как же это работает и нужно ли вообще.
 - посмотреть официальные туториалы по _jekyll_ на _youtube_
-- ~~при 404 верхний заголовок съезжает ниже~~
 - для чего в исходном __tactile__ был сделан _print.css_?
 - навести порядок в стилях, разнести _tactile_ и собственные настройки, вообще прокачать __scss__
 - добавить тень и вообще красоту к аватарке
-- ~~_h2_ и _a_ слишком похожи друг на друга по стилям~~
 - надо как-то покрасивее разместить футер (подсмотреть в _minima_)
-- может добавить пикчи в сслыках на контакты?
 - _вернуться обратно_ не работает с мобильного Brave
-- pagnation (какие-то там сложности html VS markdown)
-- в _dinky_ реализованы архивы, а оно мне надо?
-- _draft_ - функционал jekyll'а, это пост без даты, над котором всё еще "ведется работа"
-- в постах используется дата. а надо ли указывать время? пока без него.
-- _paginate_ plugin для Блога
+- pagination (какие-то там сложности html VS markdown)
+- **next** / **prev** [post] (https://guypursey.com/blog/202104171135-next-previous-nav-links-jekyll-blog)
 
+### плагины
+[список 1](https://github.com/planetjekyll/awesome-jekyll-plugins)
+[список 2](https://planetjekyll.github.io/plugins/top)
+
+- [поиск](https://github.com/algolia/jekyll-algolia)  **deprecated**
+- [tag cloud](https://github.com/pattex/jekyll-tagging)
+- [paginate v2](https://github.com/sverrirs/jekyll-paginate-v2)
+
+- admin
+- pictures
 
 
 `{{ site.baseurl }}{{ item.link }}` и `{{ item.link | relative_url }}` дают одинаковый результат
