@@ -84,7 +84,10 @@ blockquote a {
 
 /*
 ul.post-list
-span.post-meta
 a.post-link
 
 */
+span.post-meta {
+    float: right;
+    text-shadow: 1px 1px 2px darkgray;
+}

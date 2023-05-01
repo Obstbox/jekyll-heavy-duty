@@ -7,15 +7,8 @@ layout: default
 {{ content }}
 
 
-<p>-------------------------------------------------</p>
-
-
 {%- if site.posts.size > 0 -%}
   <h2>Свежие записи в блоге</h2>
-  {% comment %} <p>Adipisicing delectus sint Consectetur necessitatibus quo aperiam atque sunt. Ipsam odit facilis minus possimus {% endcomment %} 
-  {% comment %} vitae? Iure consequuntur amet vitae quisquam eveniet? Delectus voluptatum aut neque expedita amet, eum? Minima vel {% endcomment %} 
-  {% comment %} fid non nostrum amet Natus ea beatae eligendi sapiente animi autem Provident adipisci similique enim placeat sit. {% endcomment %} 
-  {% comment %} Exercitationem velit assumenda excepturi ex?</p> {% endcomment %}
   <ul class="post-list">
     {%- assign date_format = "%d.%m.%Y" -%}
     {%- for post in site.posts -%}
@@ -24,11 +17,13 @@ layout: default
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {% comment %} {{ post.title | escape }} {% endcomment %}
-            {{ post.title }}
+            {{ post.title }}{{ post.except }}
           </a>
         </h3>
+
+        <!-- page.except just not works, so: -->
         {%- if site.show_excerpts -%}
-          {{ post.except }}
+          <span>{{ post.content | strip_html | truncatewords: 32 }}</span>
         {%- endif -%}
       </li>
     {%- endfor -%}
@@ -40,9 +35,6 @@ layout: default
   <p>Но будут.</p>
 {%- endif -%}
 
-
-
-<p>-------------------------------------------------</p>
 
 
 
