@@ -1,0 +1,30 @@
+<div class="posts-briefly">
+
+  {%- if site.posts.size > 0 -%}
+
+  <h2>Свежие записи в блоге</h2>
+  <ul class="post-list">
+    {%- assign date_format = "%d.%m.%Y" -%}
+    {%- for post in site.posts limit: 3 -%}
+    <li>
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {% comment %} {{ post.title | escape }} {% endcomment %}
+          {{ post.title }}
+        </a>
+      </h3>
+      <!-- page.except just not works, so: -->
+      {%- if site.show_excerpts -%}
+        <span class="pseudo-excerpt">{{ post.content | strip_html | truncatewords: 32 }}</span>
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
+
+  {%- else -%}
+    <h3>Ой!</h3>
+    <p>Записей в блоге пока нет.</p>
+    <p>Но будут.</p>
+  {%- endif -%}
+</div>
