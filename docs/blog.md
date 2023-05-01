@@ -2,6 +2,4 @@
 layout: default
 ---
 
-burn alive
-burn alive
-
+{% include posts-common.html %}
