@@ -1,9 +1,9 @@
 ---
 layout: post
-title: learn.javascript.ru
+title: learn.javascript.ru - 3
 ---
 
-### шпаргалка по {{ page.title }} - 3
+### шпаргалка по {{ page.title }}
 
 [lodash](https://lodash.com) - modern js utility library  
 [mocha](https://mochajs.org) - фреймворк для тестирования  
