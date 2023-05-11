@@ -17,7 +17,7 @@ nav.head-nav a {
 }
 
 p {
-    text-align: justify;
+    // text-align: justify;
     // text-indent: 1.2em;
 }
 
@@ -49,6 +49,11 @@ div.bio figure {
 
 div.bio > div {
     margin-top: 1em;
+}
+
+a {
+    text-decoration: underline;
+    text-decoration-style: dashed;
 }
 
 a:hover {

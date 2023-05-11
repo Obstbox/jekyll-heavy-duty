@@ -44,6 +44,7 @@ let value = +prompt("Возраст");
 result = a ?? b
 // равноценно
 result = (a !== null && a !== undefined) ? a : b;
+
 // ?? полезен, чтобы обезопасить переменную
 let user;
 alert(user ?? "Аноним");
